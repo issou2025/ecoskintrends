@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Disallow admin or private directories (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+
+# Allow CSS, JS, and images for better crawling
+Allow: /css/
+Allow: /js/
+Allow: /img/
+Allow: /fonts/
+
+# Sitemap location
+Sitemap: https://ecoskintrends.com/sitemap.xml
+
+# Crawl delay (optional - helps prevent server overload)
+Crawl-delay: 1 
